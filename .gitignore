@@ -1,0 +1,20 @@
+# resource: 
+#   https://paulvanderlaken.com/2020/05/12/create-perfect-gitignore-file-for-project/
+
+# virtual environment
+.venv
+.python-version
+
+# vscode
+.vscode/*
+.vscode/settings.json
+.vscode/launch.json
+.vscode/tasks.json
+.vscode/extensions.json
+*.code-workspace
+
+# environment
+/data/*
+.pytest_cache
+
+__pycache__

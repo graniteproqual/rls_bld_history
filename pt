@@ -1,0 +1,5 @@
+#!/bin/bash
+#./adb logcat -v threadtime -d > "./log/android_log""$(date +"%FT%H%M%S").log" 
+DT=$(date +%FT%T)
+# -rxXs   pytest flag to show extra info on xfailed, xpassed, and skipped tests
+pytest tests -rxXs -s --html=data/$DT.report.html --self-contained-html  $1 $2 $3 $4

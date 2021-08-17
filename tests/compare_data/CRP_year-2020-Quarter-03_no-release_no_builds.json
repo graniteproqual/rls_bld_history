@@ -1,0 +1,17 @@
+{
+  "products": {
+    "CRP": {
+      "last_maintenance_release": "pending",
+      "last_mainline_release": "pending",
+      "years": {
+        "2020": {
+          "quarters": {
+            "03": {
+              "target_release": {}
+            }
+          }
+        }
+      }
+    }
+  }
+}
